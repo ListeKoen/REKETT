@@ -1,5 +1,7 @@
 body {
     background-color: black;
+    position: relative;
+    height: 100%;
 }
 
 p,
@@ -204,7 +206,12 @@ h6 {
 
 .sub-title {
     margin: auto;
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
+
+
+/* Tour list */
 
 .ticket-table {
     font-size: .8rem;
@@ -252,6 +259,39 @@ h6 {
 .ticket-btn-text {
     color: #444;
 }
+
+
+/* Tour list end */
+
+
+/* Merchandise */
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+/* Merchandise end */
 
 
 /* index end */

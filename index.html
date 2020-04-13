@@ -3,9 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
     <link rel="stylesheet" href="css/stylesheet.css">
     <title>REKETT</title>
 </head>
@@ -31,108 +32,125 @@
     </header>
 
     <main>
-        <!-- <section class="main-section">
+        <section class="main-section">
             <img src="img/1.jpg" alt="">
         </section>
         <h1 class="title">REKETT</h1>
         <section class="intro-sec">
             <p>Dette er fyldetekst, lorem ipsum osv. I ved hvordan det virker med denne slags tekst. Man skal bare have noget for at fylde pladsen ud indtil man, har den tekst man egentlig skal bruge, men indtil da står der bare noget volapyk.</p>
             <img src="img/2.jpg" alt="">
-        </section> -->
+        </section>
         <section class="show-sec">
-            <h2 class="sub-title">Tour dates</h1>
-                <table class="ticket-table">
-                    <tbody>
-                        <tr>
-                            <td class="table-row-date">
-                                <p>01.May 2020</p>
-                            </td>
-                            <td class="table-row-country">
-                                <p>DK</p>
-                            </td>
-                            <td class="table-row-city">
-                                <p>Copenhagen</p>
-                            </td>
-                            <td class="table-row-place">
-                                <p>Pumpehuset</p>
-                            </td>
-                            <td class="table-row-buy">
-                                <button><a href="#"><p class="ticket-btn-text">Tickets</p><img src="img/shopping-cart.png" alt=""></a></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="table-row-date">
-                                <p>01.May 2020</p>
-                            </td>
-                            <td class="table-row-country">
-                                <p>DK</p>
-                            </td>
-                            <td class="table-row-city">
-                                <p>Copenhagen</p>
-                            </td>
-                            <td class="table-row-place">
-                                <p>Pumpehuset</p>
-                            </td>
-                            <td class="table-row-buy">
-                                <button><a href="#"><p class="ticket-btn-text">Tickets</p><img src="img/shopping-cart.png" alt=""></a></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="table-row-date">
-                                <p>01.May 2020</p>
-                            </td>
-                            <td class="table-row-country">
-                                <p>DK</p>
-                            </td>
-                            <td class="table-row-city">
-                                <p>Copenhagen</p>
-                            </td>
-                            <td class="table-row-place">
-                                <p>Pumpehuset</p>
-                            </td>
-                            <td class="table-row-buy">
-                                <button><a href="#"><p class="ticket-btn-text">Tickets</p><img src="img/shopping-cart.png" alt=""></a></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="table-row-date">
-                                <p>01.May 2020</p>
-                            </td>
-                            <td class="table-row-country">
-                                <p>DK</p>
-                            </td>
-                            <td class="table-row-city">
-                                <p>Copenhagen</p>
-                            </td>
-                            <td class="table-row-place">
-                                <p>Pumpehuset</p>
-                            </td>
-                            <td class="table-row-buy">
-                                <button><a href="#"><p class="ticket-btn-text">Tickets</p><img src="img/shopping-cart.png" alt=""></a></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="table-row-date">
-                                <p>01.May 2020</p>
-                            </td>
-                            <td class="table-row-country">
-                                <p>DK</p>
-                            </td>
-                            <td class="table-row-city">
-                                <p>Copenhagen</p>
-                            </td>
-                            <td class="table-row-place">
-                                <p>Pumpehuset</p>
-                            </td>
-                            <td class="table-row-buy">
-                                <button><a href="#"><p class="ticket-btn-text">Tickets</p><img src="img/shopping-cart.png" alt=""></a></button>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+            <h2 class="sub-title">Tour dates</h2>
+            <table class="ticket-table">
+                <tbody>
+                    <tr>
+                        <td class="table-row-date">
+                            <p>01.May 2020</p>
+                        </td>
+                        <td class="table-row-country">
+                            <p>DK</p>
+                        </td>
+                        <td class="table-row-city">
+                            <p>Copenhagen</p>
+                        </td>
+                        <td class="table-row-place">
+                            <p>Pumpehuset</p>
+                        </td>
+                        <td class="table-row-buy">
+                            <button><a href="#"><p class="ticket-btn-text">Tickets</p><img src="img/shopping-cart.png" alt=""></a></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-row-date">
+                            <p>01.May 2020</p>
+                        </td>
+                        <td class="table-row-country">
+                            <p>DK</p>
+                        </td>
+                        <td class="table-row-city">
+                            <p>Copenhagen</p>
+                        </td>
+                        <td class="table-row-place">
+                            <p>Pumpehuset</p>
+                        </td>
+                        <td class="table-row-buy">
+                            <button><a href="#"><p class="ticket-btn-text">Tickets</p><img src="img/shopping-cart.png" alt=""></a></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-row-date">
+                            <p>01.May 2020</p>
+                        </td>
+                        <td class="table-row-country">
+                            <p>DK</p>
+                        </td>
+                        <td class="table-row-city">
+                            <p>Copenhagen</p>
+                        </td>
+                        <td class="table-row-place">
+                            <p>Pumpehuset</p>
+                        </td>
+                        <td class="table-row-buy">
+                            <button><a href="#"><p class="ticket-btn-text">Tickets</p><img src="img/shopping-cart.png" alt=""></a></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-row-date">
+                            <p>01.May 2020</p>
+                        </td>
+                        <td class="table-row-country">
+                            <p>DK</p>
+                        </td>
+                        <td class="table-row-city">
+                            <p>Copenhagen</p>
+                        </td>
+                        <td class="table-row-place">
+                            <p>Pumpehuset</p>
+                        </td>
+                        <td class="table-row-buy">
+                            <button><a href="#"><p class="ticket-btn-text">Tickets</p><img src="img/shopping-cart.png" alt=""></a></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-row-date">
+                            <p>01.May 2020</p>
+                        </td>
+                        <td class="table-row-country">
+                            <p>DK</p>
+                        </td>
+                        <td class="table-row-city">
+                            <p>Copenhagen</p>
+                        </td>
+                        <td class="table-row-place">
+                            <p>Pumpehuset</p>
+                        </td>
+                        <td class="table-row-buy">
+                            <button><a href="#"><p class="ticket-btn-text">Tickets</p><img src="img/shopping-cart.png" alt=""></a></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
         <section class="merch-sec">
-
+            <h2 class="sub-title">Merchandise</h2>
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
         </section>
     </main>
 
@@ -143,6 +161,18 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1.5,
+            spaceBetween: 30,
+            freeMode: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
 </body>
 
 </html>
