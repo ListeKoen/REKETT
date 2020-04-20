@@ -195,6 +195,10 @@ h6 {
     z-index: -1;
 }
 
+.frontimg-desktop {
+    display: none;
+}
+
 .title {
     margin-left: 32%;
     margin-top: 120%;
@@ -294,10 +298,65 @@ h6 {
 /* Merchandise end */
 
 
+/* footer */
+
+footer {
+    margin-top: 8%;
+}
+
+footer a {
+    display: flex;
+    justify-content: start;
+    color: gainsboro;
+    width: 20%;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+
+/* footer end */
+
+
 /* index end */
 
 @media only screen and (min-width: 768px) {
     /* index */
+    /* navigation */
+    .menu--off {
+        width: auto;
+    }
+    /* navigtion end */
+    .main-section {
+        top: 0;
+    }
+    .frontimg-mobil {
+        display: none;
+    }
+    .frontimg-desktop {
+        display: block;
+        width: 100%;
+    }
+    .title {
+        font-size: 6rem;
+        margin-top: 37%;
+        margin-left: 62%;
+        transform: translate(-50%, -50%);
+    }
+    .intro-sec p {
+        width: 70%;
+        margin: auto;
+    }
+    .intro-sec img {
+        margin: auto;
+    }
+    .sub-title {
+        position: relative;
+        font-size: 3rem;
+    }
+    /* tour list */
     .ticket-table {
         font-size: .9rem;
         margin: auto;
@@ -345,11 +404,6 @@ h6 {
         display: block;
         padding: 0!important;
     }
-    .table-row-buy img {
-        display: none;
-    }
-    .ticket-btn-text {
-        color: #444;
-    }
+    /* tour list end */
     /* index end */
 }

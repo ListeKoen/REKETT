@@ -22,10 +22,10 @@
             </section>
 
             <section class="menu menu--off">
-                <div>Android's Material Design Hamburger Animation</div>
-                <div>Adapted for the web by <a href="https://swirlycheetah.com" target="_blank">Chris Wheatley</a></div>
-                <div><a href="https://github.com/swirlycheetah/material-design-hamburger" target="_blank">Available on GitHub</a></div>
-                <div><a href="https://twitter.com/swirlycheetah" target="_blank">Follow me on Twitter @swirlycheetah</a></div>
+                <div>Dette er en hamburger menu</div>
+                <div>Den kommmer dog ikke med en sodavand</div>
+                <div>haHAA Jokes!</div>
+                <div>We got 'em</div>
             </section>
 
         </section>
@@ -33,15 +33,20 @@
 
     <main>
         <section class="main-section">
-            <img src="img/1.jpg" alt="">
+            <img class="frontimg-mobil" src="img/1.jpg" alt="">
+            <img class="frontimg-desktop" src="img/stock.jpg" alt="">
         </section>
         <h1 class="title">REKETT</h1>
         <section class="intro-sec">
             <p>Dette er fyldetekst, lorem ipsum osv. I ved hvordan det virker med denne slags tekst. Man skal bare have noget for at fylde pladsen ud indtil man, har den tekst man egentlig skal bruge, men indtil da står der bare noget volapyk.</p>
+            <p>Det virkede som om der skulle noget mere tekst til, for at give en realistisk representation for desktop versionen af denne fyldetekst. Så derfor valgte jeg at fortsætte denne interesante tekst som om intet var ude af normen</p>
+            <p>Selv efter at have skrevet endnu en klump tekst til denne sektion, var der endnu ikke nok fyldetekst til at få det til at se ordentligt ud, så jeg må endnu en gang til at fylde noget mere ud.</p>
             <img src="img/2.jpg" alt="">
         </section>
         <section class="show-sec">
-            <h2 class="sub-title">Tour dates</h2>
+            <h2 class="sub-title">
+                <center>Tour dates</center>
+            </h2>
             <table class="ticket-table">
                 <tbody>
                     <tr>
@@ -133,7 +138,9 @@
             </table>
         </section>
         <section class="merch-sec">
-            <h2 class="sub-title">Merchandise</h2>
+            <h2 class="sub-title">
+                <center>Merchandise</center>
+            </h2>
             <!-- Swiper -->
             <div class="swiper-container">
                 <div class="swiper-wrapper">
@@ -152,10 +159,15 @@
                 <div class="swiper-pagination"></div>
             </div>
         </section>
+        <section class="newsletter">
+
+        </section>
     </main>
 
     <footer>
-
+        <a href="#"><img src="img/instagram.png" alt="">Instagram</a>
+        <a href="#"><img src="img/facebook.png" alt="">Facebook</a>
+        <a href="#"><img src="img/twitter.png" alt="">Twitter</a>
     </footer>
     <script src="js/functions.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -164,7 +176,7 @@
     <script src="https://unpkg.com/swiper/js/swiper.js"></script>
     <script>
         var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 1.5,
+            slidesPerView: 1.8,
             spaceBetween: 30,
             freeMode: true,
             pagination: {
