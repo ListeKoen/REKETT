@@ -322,6 +322,24 @@ footer a:hover {
 
 /* index end */
 
+
+/* history */
+
+
+/* history end */
+
+
+/* members */
+
+
+/* members end */
+
+
+/* photos */
+
+
+/* photos end */
+
 @media only screen and (min-width: 768px) {
     /* index */
     /* navigation */
@@ -406,4 +424,10 @@ footer a:hover {
     }
     /* tour list end */
     /* index end */
+    /* history */
+    /* history end */
+    /* members */
+    /* members end */
+    /* photos */
+    /* photos end */
 }
