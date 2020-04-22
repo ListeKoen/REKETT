@@ -1,3 +1,13 @@
+@font-face {
+    /*This code adds a new font-face, which can be used in the product*/
+    src: url("../font/Montserrat-Light.ttf");
+    font-family: Montserrat;
+}
+
+* {
+    font-family: Montserrat;
+}
+
 body {
     background-color: black;
     position: relative;
@@ -298,6 +308,91 @@ h6 {
 /* Merchandise end */
 
 
+/* index end */
+
+
+/* history */
+
+.history-title {
+    margin-left: 3%;
+}
+
+.history-text {
+    width: 93%;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+
+.history-btn {
+    border: solid 1px gainsboro;
+    border-radius: 10px;
+    width: 69%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+
+/* history end */
+
+
+/* members */
+
+.member-title {
+    margin-left: 3%;
+}
+
+.member-jay,
+.member-danny,
+.member-bellz,
+.member-racer,
+.member-nick {
+    width: 93%;
+    margin: auto;
+}
+
+.member-jay h3,
+.member-danny h3,
+.member-bellz h3,
+.member-racer h3,
+.member-nick h3 {
+    padding-top: 1rem;
+}
+
+.member-jay a,
+.member-danny a,
+.member-bellz a,
+.member-racer a,
+.member-nick a {
+    display: flex;
+    justify-content: start;
+    color: gainsboro;
+    width: 20%;
+}
+
+.member-jay a img,
+.member-danny a img,
+.member-bellz a img,
+.member-racer a img,
+.member-nick a img {
+    padding-right: 8%;
+    margin-bottom: 1rem;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+
+/* members end */
+
+
+/* photos */
+
+
+/* photos end */
+
+
 /* footer */
 
 footer {
@@ -318,27 +413,6 @@ footer a:hover {
 
 
 /* footer end */
-
-
-/* index end */
-
-
-/* history */
-
-
-/* history end */
-
-
-/* members */
-
-
-/* members end */
-
-
-/* photos */
-
-
-/* photos end */
 
 @media only screen and (min-width: 768px) {
     /* index */
