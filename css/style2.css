@@ -193,163 +193,7 @@ h6 {
 }
 
 
-/* heaeder end */
-
-
-/* index */
-
-.main-section {
-    position: absolute;
-    top: 0%;
-    z-index: -1;
-}
-
-.frontimg-desktop {
-    display: none;
-}
-
-.title-box {
-    width: 50%;
-    margin: auto;
-    margin-top: 58vh;
-}
-
-.title {
-    text-align: center;
-}
-
-.intro-sec {
-    margin-top: 8%;
-}
-
-.sub-title {
-    margin: auto;
-    padding-bottom: 5%;
-    padding-top: 5%;
-}
-
-
-/* Tour list */
-
-.ticket-table {
-    font-size: .8rem;
-    border-collapse: collapse;
-    border-spacing: 0;
-    display: table;
-}
-
-.ticket-table tr {
-    border-bottom: 1px solid #444;
-}
-
-.ticket-table td {
-    padding: .5em;
-    width: 20%;
-    display: table-cell;
-}
-
-.table-row-country {
-    width: 15%;
-}
-
-.table-row-country p {
-    border: 1px solid #333;
-    padding: 0;
-    margin: 3% 0 0;
-    width: 70%;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.table-row-place {
-    width: 35%;
-}
-
-.table-row-buy p {
-    display: block;
-    margin: 0;
-}
-
-.table-row-buy img {
-    display: none;
-}
-
-.ticket-btn-text {
-    color: #444;
-}
-
-
-/* Tour list end */
-
-
-/* Merchandise */
-
-.swiper-container {
-    width: 100%;
-    height: 100%;
-}
-
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-}
-
-
-/* Merchandise end */
-
-
-/* index end */
-
-
-/* history */
-
-.history-title {
-    margin-left: 3%;
-}
-
-.history-text {
-    width: 93%;
-    margin: auto;
-    padding-bottom: 1rem;
-}
-
-.history-img {
-    margin-bottom: 5%;
-}
-
-.history-btn {
-    border: solid 1px gainsboro;
-    border-radius: 10px;
-    width: 73%;
-    margin: auto;
-    margin-top: 1rem;
-    font-size: 1.9rem;
-}
-
-.history-btn a {
-    color: gainsboro;
-}
-
-.history-btn a:hover {
-    text-decoration: none;
-}
-
-
-/* history end */
+/* header end */
 
 
 /* members */
@@ -403,34 +247,6 @@ footer a:hover {
 
 /* members end */
 
-
-/* photos */
-
-
-/* photos end */
-
-
-/* footer */
-
-footer {
-    margin-top: 8%;
-}
-
-footer a {
-    display: flex;
-    justify-content: start;
-    color: gainsboro;
-    width: 20%;
-}
-
-footer a:hover {
-    text-decoration: none;
-    color: ghostwhite;
-}
-
-
-/* footer end */
-
 @media only screen and (min-width: 768px) {
     /* index */
     /* navigation */
@@ -438,116 +254,6 @@ footer a:hover {
         width: auto;
     }
     /* navigtion end */
-    .main-section {
-        top: 0;
-    }
-    .frontimg-mobil {
-        display: none;
-    }
-    .frontimg-desktop {
-        display: block;
-        width: 100%;
-    }
-    .title-box {
-        width: 20%;
-        margin: auto;
-        margin-top: 70vh;
-    }
-    .title {
-        font-size: 6rem;
-    }
-    .intro-sec p {
-        width: 70%;
-        margin: auto;
-        text-align: center;
-    }
-    .intro-sec img {
-        margin: auto;
-    }
-    .sub-title {
-        position: relative;
-        font-size: 3rem;
-    }
-    /* tour list */
-    .ticket-table {
-        font-size: .9rem;
-        margin: auto;
-        width: 70%;
-        border-collapse: collapse;
-        border-spacing: 0;
-        display: table;
-    }
-    .ticket-table tr {
-        border-bottom: 1px solid #444;
-    }
-    .ticket-table td {
-        padding: 8px 0;
-        display: table-cell;
-    }
-    .ticket-table td p {
-        padding-left: 40px;
-    }
-    .table-row-date {
-        width: 20%;
-    }
-    .table-row-country {
-        width: 5%;
-    }
-    .table-row-country p {
-        border: 1px solid #333;
-        padding-left: 0!important;
-        padding-top: 2px;
-        padding-right: 0;
-        padding-bottom: 3px;
-        width: 15%;
-        text-align: center;
-        text-transform: uppercase;
-    }
-    .table-row-city {
-        width: 25%;
-    }
-    .table-row-place {
-        width: 38%;
-    }
-    .table-row-buy {
-        width: 12%;
-    }
-    .table-row-buy p {
-        display: block;
-        padding: 0!important;
-    }
-    /* tour list end */
-    /* index end */
-    /* history */
-    .history-box {
-        width: 30%;
-        margin: auto;
-    }
-    .history-title {
-        font-size: 6rem;
-        text-align: center;
-        margin-bottom: 5%;
-    }
-    .history-text {
-        width: 60%;
-        margin: auto;
-        padding-bottom: 3rem;
-        text-align: center;
-    }
-    .history-img {
-        margin: auto;
-        margin-bottom: 3rem;
-    }
-    .history-btn {
-        border: solid 1px gainsboro;
-        border-radius: 10px;
-        width: 30%;
-        margin: auto;
-        margin-top: 1rem;
-        font-size: 4rem;
-        text-align: center;
-    }
-    /* history end */
     /* members */
     .member-box {
         width: 30%;
@@ -557,11 +263,34 @@ footer a:hover {
         font-size: 5.5rem;
         text-align: center;
     }
-    .member-wrapper {
+    /* .member-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } */
+    .member-jay,
+    .member-danny,
+    .member-bellz,
+    .member-racer,
+    .member-nick {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    .member-txt {
+        margin: auto;
+        width: 90%;
+    }
+    .member-img {
+        margin: auto;
+        margin-bottom: 3rem;
+        width: 90%;
+    }
+    .member-jay a img,
+    .member-danny a img,
+    .member-bellz a img,
+    .member-racer a img,
+    .member-nick a img {
+        padding-right: 8%;
+        margin-bottom: 1.3rem;
+    }
     /* members end */
-    /* photos */
-    /* photos end */
 }
