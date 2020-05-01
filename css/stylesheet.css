@@ -534,6 +534,7 @@ footer a:hover {
     .intro-sec p {
         width: 70%;
         margin: auto;
+        margin-bottom: 1.5rem;
         text-align: center;
     }
     .intro-sec img {
@@ -647,6 +648,25 @@ footer a:hover {
         text-align: center;
     }
     /* photos end */
+    /* footer */
+    .footer-some {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .footer-some article {
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    footer a {
+        width: 150%;
+    }
+    footer a img {
+        width: 50%;
+    }
+    footer a p {
+        font-size: 2rem;
+    }
+    /* footer end */
 }
 
 
