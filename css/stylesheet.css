@@ -488,19 +488,43 @@ footer a:hover {
 /* footer */
 
 footer {
-    margin-top: 8%;
+    margin-top: 3%;
 }
 
 footer a {
     display: flex;
     justify-content: start;
     color: gainsboro;
-    width: 20%;
+    width: 100%;
 }
 
 footer a:hover {
     text-decoration: none;
     color: ghostwhite;
+}
+
+footer a p {
+    margin: auto 0;
+    padding-left: 1rem;
+}
+
+.footer-some {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-some article {
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+footer a img {
+    width: auto;
+    max-height: 80px;
+}
+
+.some-txt {
+    display: none;
 }
 
 
@@ -649,22 +673,17 @@ footer a:hover {
     }
     /* photos end */
     /* footer */
-    .footer-some {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .footer-some article {
-        margin: auto;
-        margin-bottom: 2rem;
-    }
     footer a {
-        width: 150%;
+        width: 100%;
     }
     footer a img {
-        width: 50%;
+        max-height: 126px;
     }
     footer a p {
         font-size: 2rem;
+    }
+    .some-txt {
+        display: inline;
     }
     /* footer end */
 }
