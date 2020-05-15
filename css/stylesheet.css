@@ -1,635 +1,298 @@
-@font-face {
-    src: url("../font/Montserrat-Light.ttf");
-    font-family: Montserrat-light;
-}
-
-@font-face {
-    src: url("../font/Montserrat-Regular.ttf");
-    font-family: Montserrat;
-}
-
-@font-face {
-    src: url(../font/Montserrat-SemiBold.ttf);
-    font-family: Montserrat-semi;
-}
-
-:root {
-    --swiper-theme-color: #0D526F;
-    --bluee: #0D526F;
-}
-
-* {
-    font-family: Montserrat;
-}
-
-p,
-a {
-    font-family: Montserrat-light;
-    color: gainsboro;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: Montserrat;
-    color: gainsboro;
-}
-
-button {
-    font-family: Montserrat-semi;
-}
-
-body {
-    background-color: #202020;
-    max-width: 98vw;
-    height: 100%;
-}
-
-.index-body {
-    background-image: url(../img/backgrounds/MobileSmall740x1140\ –\ Hood.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-color: #202020;
-    position: relative;
-    max-width: 98vw;
-    height: 100%;
-}
-
-
-/* index */
-
-.main-section {
-    position: relative;
-    z-index: -1;
-}
-
-.frontimg-desktop {
-    display: none;
-}
-
-.latest-song {
-    margin: auto;
-    width: 60%;
-    border: solid 1px white;
-}
-
-.title-box {
-    width: 60%;
-    margin: auto;
-    margin-top: 6%;
-    margin-bottom: 6%;
-}
-
-.intro-sec {
-    margin-top: 8%;
-}
-
-.intro-sec h3 {
-    text-align: center;
-}
-
-.intro-sec p {
-    text-align: center;
-}
-
-.sub-title {
-    margin: auto;
-    padding-bottom: 5%;
-    padding-top: 5%;
-}
-
-
-/* Tour list */
-
-.ticket-table {
-    font-size: .8rem;
-    border-collapse: collapse;
-    border-spacing: 0;
-    display: table;
-}
-
-.ticket-table tr {
-    border-bottom: 1px solid #444;
-}
-
-.ticket-table td {
-    padding: .5em;
-    width: 20%;
-    display: table-cell;
-}
-
-.table-row-country p {
-    border: 1px solid #333;
-    padding: 0;
-    margin: 3% 0 0;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.table-row-date p,
-.table-row-country p,
-.table-row-city p,
-.table-row-place p,
-.table-row-buy p {
-    margin: auto;
-    text-align: center;
-}
-
-.table-row-buy p {
-    display: block;
-    margin: 0;
-}
-
-.table-row-buy img {
-    display: none;
-}
-
-.ticket-btn-text {
-    color: #444;
-}
-
-
-/* Tour list end */
-
-
-/* Merchandise */
-
-.merch-desktop {
-    display: none;
-}
-
-.swiper-container {
-    width: 100%;
-    height: 100%;
-    margin-bottom: 8%;
-}
-
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-}
-
-
-/* Merchandise end */
-
-.wallpaper-sec {
-    background-color: var(--bluee);
-    text-align: center;
-    padding: 3%;
-}
-
-
-/* index end */
-
-
-/* history */
-
-.history-title {
-    margin-left: 3%;
-}
-
-.history-text {
-    width: 93%;
-    margin: auto;
-    padding-bottom: 1rem;
-}
-
-.history-img {
-    margin-bottom: 5%;
-}
-
-.history-btn {
-    border: solid 1px gainsboro;
-    border-radius: 10px;
-    width: 73%;
-    margin: auto;
-    margin-top: 1rem;
-    font-size: 1.9rem;
-}
-
-.history-btn a {
-    color: gainsboro;
-}
-
-.history-btn a:hover {
-    text-decoration: none;
-}
-
-
-/* history end */
-
-
-/* members */
-
-.member-title {
-    margin-left: 3%;
-}
-
-.member-jay,
-.member-danny,
-.member-bellz,
-.member-racer,
-.member-nick {
-    width: 93%;
-    margin: auto;
-}
-
-.member-jay h3,
-.member-danny h3,
-.member-bellz h3,
-.member-racer h3,
-.member-nick h3 {
-    padding-top: 1rem;
-}
-
-.member-jay a,
-.member-danny a,
-.member-bellz a,
-.member-racer a,
-.member-nick a {
-    display: flex;
-    justify-content: start;
-    color: gainsboro;
-    width: 20%;
-}
-
-.member-jay a img,
-.member-danny a img,
-.member-bellz a img,
-.member-racer a img,
-.member-nick a img {
-    max-height: 40px;
-    padding-right: 8%;
-    margin-bottom: 1rem;
-}
-
-
-/* members end */
-
-
-/* photos */
-
-.gal-body {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-}
-
-.gallery-title {
-    margin-left: 3%;
-}
-
-.container-all {
-    width: fit-content;
-    margin: 20px auto;
-    height: auto;
-}
-
-.photo-title {
-    display: none;
-}
-
-.photo-desc {
-    display: none;
-}
-
-.container {
-    width: calc(33.3% - 6px);
-    overflow: hidden;
-    height: fit-content;
-    margin: 3px;
-    padding: 0;
-    display: block;
-    position: relative;
-    float: left;
-}
-
-.container img {
-    width: 100%;
-    transition-duration: .3s;
-    max-width: 100%;
-    display: block;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-.pic-title {
-    position: absolute;
-    display: block;
-    cursor: pointer;
-    top: 35%;
-    display: none;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    font-weight: bold;
-    font-size: 1.75em;
-    text-shadow: 1px 5px 10px black;
-    transition-duration: .3s;
-}
-
-.text {
-    position: absolute;
-    top: 70%;
-    cursor: pointer;
-    max-width: 80%;
-    text-align: center;
-    left: 50%;
-    text-shadow: 1px 5px 10px black;
-    font-size: 1em;
-    display: none;
-    margin-right: -50%;
-    transition-duration: .3s;
-    transform: translate(-50%, -50%)
-}
-
-.container:hover img {
-    transform: scale(1.2);
-    transition-duration: .3s;
-    filter: grayscale(50%);
-    opacity: .7;
-}
-
-.container:hover span {
-    color: white;
-    display: block;
-    transition-duration: .3s;
-}
-
-
-/* photos end */
-
-
-/* media for gallery */
-
-@media only screen and (max-width: 900px) {
-    .container-all {
-        margin: 20px 9vw;
+    @font-face {
+        src: url("../font/Montserrat-Light.ttf");
+        font-family: Montserrat-light;
     }
-    .photo-title {
-        display: block;
+    
+    @font-face {
+        src: url("../font/Montserrat-Regular.ttf");
+        font-family: Montserrat;
     }
-    .photo-desc {
-        display: block;
+    
+    @font-face {
+        src: url(../font/Montserrat-SemiBold.ttf);
+        font-family: Montserrat-semi;
     }
-    .container {
-        width: calc(100% - 6px);
+    
+     :root {
+        --swiper-theme-color: #0D526F;
+        --bluee: #0D526F;
+    }
+    
+    * {
+        font-family: Montserrat;
+    }
+    
+    p,
+    a,
+    i {
+        font-family: Montserrat-light;
+        color: gainsboro;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: Montserrat-semi;
+        color: gainsboro;
+    }
+    
+    button {
+        font-family: Montserrat-semi;
+        border-style: solid;
+        border-radius: 10px;
+    }
+    
+    body {
+        background-color: #202020;
+        max-width: 98vw;
         margin: auto;
-        margin-bottom: 3rem;
     }
-    .container img {
-        margin-bottom: 0.5rem;
+    
+    .open {
+        position: absolute;
     }
-}
-
-@media only screen and (max-width: 768px) {
-    .container-all {
-        margin: 20px 13vw;
-    }
-    .container {
-        width: 100%;
-    }
-}
-
-
-/* media for gallery */
-
-@media only screen and (min-width: 768px) {
+    
     .index-body {
-        max-width: 100vw;
-        background-image: url(../img/backgrounds/Desktop3840x2160\ –\ Hood.jpg);
-        background-size: 100%;
-        background-repeat: no-repeat;
+        background-color: #202020;
+        position: relative;
+        margin: auto;
+        max-width: 98vw;
+        height: 100%;
     }
     /* index */
-    /* navigation */
-    .menu--off {
-        width: auto;
+    
+    .open-index-mobile {
+        top: -3px;
     }
-    /*navigtion end*/
+    
     .main-section {
-        top: 0;
+        position: relative;
+        z-index: -1;
     }
-    .frontimg-mobil {
-        display: none;
-    }
-    .frontimg-desktop {
-        display: block;
-        width: 100%;
-    }
-    .title-box {
-        width: 40%;
-        margin: auto;
-    }
+    
     .latest-song {
-        width: 25%;
         margin: auto;
-        margin-bottom: 3vh;
+        width: 60%;
         border: solid 1px white;
     }
+    
+    .title-box {
+        width: 60%;
+        margin-top: 7%;
+        margin-bottom: 6%;
+        margin-left: 5%;
+    }
+    
     .intro-sec {
-        width: 70%;
-        margin: auto;
-        margin-top: 0;
+        margin-top: 8%;
     }
-    .intro-sec p {
-        width: 50%;
-        background-color: #202020;
-        margin: auto;
-        margin-bottom: 1.5rem;
-        text-align: center;
-    }
+    
     .intro-sec h3 {
-        width: 50%;
-        margin: auto;
         text-align: center;
     }
-    .sub-title {
-        position: relative;
-        font-size: 3rem;
+    
+    .intro-sec p {
+        text-align: center;
     }
-    /* tour list */
-    .ticket-table {
-        font-size: 1rem;
+    
+    .sub-title {
         margin: auto;
-        width: 70%;
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
+    /* Tour list */
+    
+    .ticket-table {
+        font-size: .8rem;
         border-collapse: collapse;
         border-spacing: 0;
         display: table;
+        margin: auto;
     }
+    
     .ticket-table tr {
         border-bottom: 1px solid #444;
     }
+    
     .ticket-table td {
-        padding: 8px 0;
-    }
-    .ticket-table td p {
-        padding-left: 40px;
-    }
-    .table-row-date {
-        display: table-cell;
+        padding: .5em;
         width: 20%;
-    }
-    .table-row-country {
         display: table-cell;
-        width: 5%;
     }
+    
     .table-row-country p {
         border: 1px solid #333;
-        padding-left: 0!important;
-        padding-top: 2px;
-        padding-right: 0;
-        padding-bottom: 3px;
-        width: 15%;
+        padding: 0;
+        margin: 3% 0 0;
         text-align: center;
         text-transform: uppercase;
     }
-    .table-row-city {
-        display: table-cell;
-        width: 25%;
-    }
-    .table-row-place {
-        display: table-cell;
-        width: 38%;
-    }
-    .table-row-buy {
-        display: table-cell;
-        /* text-align: center; */
-        width: 12%;
-    }
+    
+    .table-row-date p,
+    .table-row-country p,
+    .table-row-city p,
+    .table-row-place p,
     .table-row-buy p {
-        display: block;
-        padding: 0!important;
-    }
-    /* tour list end */
-    /* merchandise */
-    .merch-sec {
-        background-image: url(../img/backgrounds/Desktop3840x2160\ –\ Doctor.jpg);
-        background-size: 100%;
-        background-repeat: no-repeat;
-        margin-bottom: 5%;
-    }
-    .swiper-container {
-        display: none;
-    }
-    .merch-desktop {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        width: 70%;
         margin: auto;
-    }
-    .merch-desktop a {
-        text-decoration: none;
-    }
-    .merch-box {
-        background-color: bisque;
-        margin: 3%;
         text-align: center;
     }
-    .merch-box p {
-        color: black;
-        margin: auto;
+    
+    .table-row-buy p {
+        display: block;
+        margin: 0;
     }
-    /* merchandise end */
+    
+    .table-row-buy img {
+        display: none;
+    }
+    
+    .ticket-btn-text {
+        color: #444;
+    }
+    /* Tour list end */
+    /* Merchandise */
+    
+    .merch-desktop {
+        display: none;
+    }
+    
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 8%;
+    }
+    
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    
+    .swiper-pagination-fraction,
+    .swiper-pagination-custom,
+    .swiper-container-horizontal>.swiper-pagination-bullets {
+        bottom: -5px;
+    }
+    /* Merchandise end */
+    
     .wallpaper-sec {
-        margin: auto;
-        padding: 3%;
-    }
-    .wallpaper-sec h1 {
-        font-family: Montserrat-semi;
-        margin-bottom: 3%;
-    }
-    .wallpaper-sec button {
-        font-size: 2.5rem;
-        color: #202020;
+        background-color: var(--bluee);
+        text-align: center;
+        padding: 10%;
     }
     /* index end */
     /* history */
-    .history-box {
-        width: 40%;
-        margin: auto;
+    
+    .open-history-mobile {
+        top: 20px;
     }
+    
     .history-title {
-        font-size: 6rem;
-        text-align: center;
-        margin-bottom: 5%;
+        margin-top: 7%;
+        margin-left: 5%;
+        margin-bottom: 10%;
     }
+    
     .history-text {
-        width: 60%;
+        width: 93%;
         margin: auto;
-        padding-bottom: 3rem;
-        text-align: center;
+        padding-bottom: 1rem;
     }
+    
     .history-img {
+        margin-bottom: 5%;
+        width: 95%;
         margin: auto;
-        margin-bottom: 3rem;
     }
+    
     .history-btn {
         border: solid 1px gainsboro;
         border-radius: 10px;
-        width: 30%;
+        width: 73%;
         margin: auto;
         margin-top: 1rem;
-        font-size: 4rem;
-        text-align: center;
+        font-size: 1.9rem;
+    }
+    
+    .history-btn a {
+        color: gainsboro;
+    }
+    
+    .history-btn a:hover {
+        text-decoration: none;
     }
     /* history end */
     /* members */
-    .member-box {
-        width: 60%;
-        margin: auto;
-        margin-bottom: -3rem;
+    
+    .open-members-mobile {
+        top: 20px;
     }
+    
     .member-title {
-        font-size: 6rem;
-        text-align: center;
+        margin-top: 7%;
+        margin-left: 5%;
+        margin-bottom: 10%;
     }
-    .member-wrapper {
-        width: 50%;
+    
+    .member-jay,
+    .member-danny,
+    .member-bellz,
+    .member-racer,
+    .member-nick {
+        width: 93%;
         margin: auto;
     }
-    .member-jay img,
-    .member-danny img,
-    .member-bellz img,
-    .member-racer img,
-    .member-nick img {
-        margin-bottom: 1rem;
-        margin-top: 5rem;
+    
+    .member-jay h3,
+    .member-danny h3,
+    .member-bellz h3,
+    .member-racer h3,
+    .member-nick h3 {
+        padding-top: 1rem;
     }
+    
     .member-jay a,
     .member-danny a,
     .member-bellz a,
     .member-racer a,
     .member-nick a {
-        text-decoration: none;
+        display: flex;
+        justify-content: start;
+        color: gainsboro;
+        width: 20%;
+        margin-bottom: 1rem;
     }
+    
     .member-jay a img,
     .member-danny a img,
     .member-bellz a img,
     .member-racer a img,
     .member-nick a img {
-        padding-right: 5%;
+        max-height: 20px;
+        padding-right: 8%;
         margin: auto;
         margin-left: 0;
         margin-right: 0;
+        margin-bottom: 2rem;
+        margin-top: 2px;
     }
+    
     .member-jay a p,
     .member-danny a p,
     .member-bellz a p,
@@ -638,56 +301,646 @@ body {
         margin: auto;
         margin-left: 0;
         margin-right: 0;
+        margin-bottom: 2rem;
     }
     /* members end */
     /* photos */
+    
+    .open-photos-mobile {
+        top: 20px;
+    }
+    
     .gal-body {
         display: flex;
         flex-direction: column;
         margin: auto;
     }
-    .gallery-box {
-        width: 60%;
-        margin: auto;
-    }
+    
     .gallery-title {
-        font-size: 6rem;
-        text-align: center;
+        margin-top: 7%;
+        margin-left: 5%;
+        margin-bottom: 10%;
     }
-    .galfoot {
+    
+    .container-all {
+        width: fit-content;
+        margin: 20px auto;
+        height: auto;
+    }
+    
+    .photo-title {
+        display: none;
+    }
+    
+    .photo-desc {
+        display: none;
+    }
+    
+    .container {
+        width: calc(33.3% - 6px);
+        overflow: hidden;
+        height: fit-content;
+        margin: 3px;
+        padding: 0;
+        display: block;
+        position: relative;
+        float: left;
+    }
+    
+    .container img {
         width: 100%;
+        transition-duration: .3s;
+        max-width: 100%;
+        display: block;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    
+    .pic-title {
+        position: absolute;
+        display: block;
+        cursor: pointer;
+        top: 35%;
+        display: none;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 1.75em;
+        text-shadow: 1px 5px 10px black;
+        transition-duration: .3s;
+    }
+    
+    .text {
+        position: absolute;
+        top: 70%;
+        cursor: pointer;
+        max-width: 80%;
+        text-align: center;
+        left: 50%;
+        text-shadow: 1px 5px 10px black;
+        font-size: 1em;
+        display: none;
+        margin-right: -50%;
+        transition-duration: .3s;
+        transform: translate(-50%, -50%)
+    }
+    
+    .container:hover img {
+        transform: scale(1.2);
+        transition-duration: .3s;
+        filter: grayscale(50%);
+        opacity: .7;
+    }
+    
+    .container:hover span {
+        color: white;
+        display: block;
+        transition-duration: .3s;
     }
     /* photos end */
     /* discography */
-    .discography {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        width: 70%;
+    
+    .open-disco-mobile {
+        top: 20px;
+    }
+    
+    .disco-body {
         margin: auto;
+        max-width: 97%;
     }
-    .discography a {
-        text-decoration: none;
+    
+    .discography-title {
+        margin-top: 9%;
+        margin-left: 5%;
+        margin-bottom: 10%;
+        font-size: 2rem;
     }
-    .disc-box {
-        background-color: bisque;
-        margin: 3%;
+    
+    .disc-box .single-title {
         text-align: center;
+        margin-bottom: 0;
     }
+    
     .disc-box p {
-        color: black;
+        text-align: center;
+        margin-bottom: 6vh;
+    }
+    
+    .disc-box img {
+        border: solid 1px white;
+        width: 90%;
         margin: auto;
+    }
+    
+    .merch-br {
+        height: 2vh;
     }
     /* discography end */
-}
-
-@media only screen and (max-width: 1200px) {
-    /* history */
-    .history-box {
-        width: 60%;
+    /* media for gallery */
+    
+    @media only screen and (max-width: 1100px) {
+        .container-all {
+            margin: 20px 9vw;
+        }
+        .photo-title {
+            display: block;
+            text-align: center;
+        }
+        .photo-desc {
+            display: block;
+            text-align: center;
+        }
+        .container {
+            width: calc(100% - 6px);
+            margin: auto;
+            margin-bottom: 3rem;
+        }
+        .container img {
+            margin-bottom: 0.5rem;
+        }
     }
-    .history-btn {
-        font-size: 2.6rem;
-        text-align: center;
+    
+    @media only screen and (max-width: 768px) {
+        .container-all {
+            margin: 20px 13vw;
+        }
+        .container {
+            width: 100%;
+        }
     }
-    /* history end */
-}
+    /* media for gallery */
+    /* tablet media query */
+    
+    @media only screen and (min-width: 768px) {
+        .open {
+            position: fixed;
+        }
+        .open-index-tablet {
+            top: 22px;
+        }
+        /* index */
+        .intro-sec p {
+            width: 60%;
+            margin: auto;
+        }
+        .title-box {
+            width: 60%;
+            margin: auto;
+        }
+        .ticket-table {
+            margin: auto;
+            width: 80%;
+        }
+        .table-row-country p {
+            width: 40%;
+        }
+        /* index end */
+        /* history */
+        .open-history-tablet {
+            top: 52px;
+        }
+        .history-title {
+            margin-left: 10%;
+            font-size: 3rem;
+        }
+        .history-text {
+            width: 80%;
+        }
+        .history-img {
+            width: 80%;
+            margin: auto;
+            margin-bottom: 1rem;
+        }
+        /* history end */
+        /* memebers */
+        .open-members-tablet {
+            top: 52px;
+        }
+        .member-title {
+            margin-top: 7%;
+            margin-left: 10%;
+            font-size: 3rem;
+        }
+        .member-wrapper {
+            width: 85%;
+            margin: auto;
+        }
+        .member-jay a img,
+        .member-danny a img,
+        .member-bellz a img,
+        .member-racer a img,
+        .member-nick a img {
+            margin-bottom: 3rem;
+        }
+        .member-jay a p,
+        .member-danny a p,
+        .member-bellz a p,
+        .member-racer a p,
+        .member-nick a p {
+            margin-bottom: 3rem;
+        }
+        /* members end */
+        /* photos */
+        .open-photos-tablet {
+            top: 52px;
+        }
+        .gallery-title {
+            margin-top: 7%;
+            margin-left: 10%;
+            font-size: 3rem;
+        }
+        /* photos end */
+        /* discography */
+        .open-disco-tablet {
+            top: 52px;
+        }
+        .discography-title {
+            margin-top: 7%;
+            margin-left: 9%;
+            font-size: 3rem;
+        }
+        .discography {
+            width: 90%;
+            margin: auto;
+        }
+        .discography p {
+            font-size: 1.4rem;
+        }
+    }
+    /* discography end */
+    /* wallpapers */
+    /* wallpapers end */
+    
+    @media only screen and (min-width: 1000px) {
+        .open-index-tablet {
+            top: 37px;
+        }
+        /* index */
+        .intro-sec p {
+            width: 60%;
+            margin: auto;
+        }
+        .ticket-table td {
+            font-size: 1.4rem;
+        }
+        .wallpaper-text {
+            font-size: 3.5rem;
+        }
+        .wallpaper-btn {
+            font-size: 2rem;
+            margin-top: 1rem;
+        }
+        /* index end */
+        /* history*/
+        .open-history-tablet {
+            top: 70px;
+        }
+        .history-text {
+            margin-bottom: 5%;
+        }
+        /* history end */
+        /* members */
+        .open-members-tablet {
+            top: 70px;
+        }
+        /* members end */
+        /* photos */
+        /* photos end */
+        /* discography */
+        .open-disco-tablet {
+            top: 70px;
+        }
+        .discography-title {
+            margin-left: 7%;
+        }
+        .discography {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .discography p {
+            font-size: 1.7rem;
+        }
+        /* discography end */
+        /* wallpapers */
+        /* wallpapers end */
+    }
+    /* tablet media query end */
+    /* desktop media query */
+    
+    @media only screen and (min-width: 1200px) {
+        /* index */
+        .open-index {
+            top: 10px;
+        }
+        .index-body {
+            max-width: 100vw;
+            background-image: url(../img/backgrounds/Desktop3840x2160\ –\ Hood.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+        .title-box {
+            width: 40%;
+            margin: auto;
+        }
+        .latest-song {
+            width: 25%;
+            margin: auto;
+            margin-bottom: 3vh;
+            border: solid 1px white;
+        }
+        .intro-sec {
+            width: 70%;
+            margin: auto;
+            margin-top: 0;
+        }
+        .intro-sec p {
+            width: 50%;
+            background-color: #202020;
+            margin: auto;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        .intro-sec h3 {
+            width: 50%;
+            margin: auto;
+            text-align: center;
+        }
+        .sub-title {
+            position: relative;
+            font-size: 3rem;
+        }
+        /* tour list */
+        .ticket-table {
+            font-size: 1rem;
+            margin: auto;
+            width: 70%;
+            border-collapse: collapse;
+            border-spacing: 0;
+            display: table;
+        }
+        .ticket-table tr {
+            border-bottom: 1px solid #444;
+        }
+        .ticket-table td {
+            padding: 8px 0;
+            font-size: 1rem;
+        }
+        .ticket-table td p {
+            padding-left: 40px;
+        }
+        .table-row-date {
+            display: table-cell;
+            width: 20%;
+        }
+        .table-row-country {
+            display: table-cell;
+            width: 5%;
+        }
+        .table-row-country p {
+            border: 1px solid #333;
+            padding-left: 0!important;
+            padding-top: 2px;
+            padding-right: 0;
+            padding-bottom: 3px;
+            width: 15%;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .table-row-city {
+            display: table-cell;
+            width: 25%;
+        }
+        .table-row-place {
+            display: table-cell;
+            width: 38%;
+        }
+        .table-row-buy {
+            display: table-cell;
+            /* text-align: center; */
+            width: 12%;
+        }
+        .table-row-buy p {
+            display: block;
+            padding: 0!important;
+        }
+        /* tour list end */
+        /* merchandise */
+        .merch-sec {
+            background-image: url(../img/backgrounds/Desktop3840x2160\ –\ Doctor.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            margin-bottom: 5%;
+        }
+        .swiper-container {
+            display: none;
+        }
+        .merch-desktop {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            width: 70%;
+            margin: auto;
+        }
+        .merch-desktop a {
+            text-decoration: none;
+        }
+        .merch-box {
+            margin: 8%;
+            text-align: center;
+        }
+        .merch-br {
+            height: 1vh;
+        }
+        .merch-box p {
+            color: white;
+            margin: auto;
+        }
+        /* merchandise end */
+        .wallpaper-sec {
+            margin: auto;
+            padding: 8%;
+        }
+        .wallpaper-sec h1 {
+            font-size: 5rem;
+            font-family: Montserrat-semi;
+        }
+        .wallpaper-sec button {
+            font-size: 2.5rem;
+            color: #202020;
+            margin-top: 1.5%;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 0;
+            padding-bottom: 0;
+            border-radius: 15px;
+        }
+        /* index end */
+        /* history */
+        .open-history {
+            top: 10px;
+        }
+        .history-body {
+            max-width: 100%;
+        }
+        .history-box {
+            width: 40%;
+            margin: auto;
+            margin-top: 10vh;
+            margin-bottom: 9vh;
+        }
+        .history-title {
+            font-size: 6rem;
+            text-align: center;
+            margin-bottom: 5%;
+        }
+        .history-text {
+            width: 60%;
+            margin: auto;
+            padding-bottom: 3rem;
+        }
+        .history-img {
+            margin: auto;
+            margin-bottom: 3rem;
+            width: 60%;
+        }
+        .history-btn {
+            border: solid 1px gainsboro;
+            border-radius: 10px;
+            width: 30%;
+            margin: auto;
+            margin-top: 1rem;
+            font-size: 3rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            text-align: center;
+        }
+        /* history end */
+        /* members */
+        .open-members {
+            top: 10px;
+        }
+        .member-body {
+            max-width: 100%;
+            background-image: url(../img/backgrounds/Desktop3840x2160\ –\ Doctor.jpg);
+            background-size: 100%;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+        .member-box {
+            width: 60%;
+            margin: auto;
+            margin-top: 10vh;
+            margin-bottom: 7vh;
+        }
+        .member-title {
+            font-size: 6rem;
+            text-align: center;
+        }
+        .member-wrapper {
+            width: 50%;
+            margin: auto;
+        }
+        .member-jay img,
+        .member-danny img,
+        .member-bellz img,
+        .member-racer img,
+        .member-nick img {
+            margin-bottom: 1rem;
+        }
+        .member-jay a,
+        .member-danny a,
+        .member-bellz a,
+        .member-racer a,
+        .member-nick a {
+            text-decoration: none;
+        }
+        .member-jay a img,
+        .member-danny a img,
+        .member-bellz a img,
+        .member-racer a img,
+        .member-nick a img {
+            padding-right: 5%;
+            margin: auto;
+            margin-left: 0;
+            margin-right: 0;
+            margin-bottom: 5rem;
+            margin-top: 2px;
+        }
+        .member-jay a p,
+        .member-danny a p,
+        .member-bellz a p,
+        .member-racer a p,
+        .member-nick a p {
+            margin: auto;
+            margin-left: 0;
+            margin-right: 0;
+            margin-bottom: 5rem;
+        }
+        /* members end */
+        /* photos */
+        .open-photos {
+            top: 10px;
+        }
+        .gal-body {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+        }
+        .gallery-box {
+            width: 60%;
+            margin: auto;
+            margin-top: 10vh;
+            margin-bottom: 9vh;
+        }
+        .gallery-title {
+            font-size: 6rem;
+            text-align: center;
+        }
+        .galfoot {
+            width: 100%;
+        }
+        /* photos end */
+        /* discography */
+        .open-disco {
+            top: 10px;
+        }
+        .discography-box {
+            width: 60%;
+            margin: auto;
+            margin-top: 10vh;
+            margin-bottom: 7vh;
+        }
+        .discography-title {
+            font-size: 6rem;
+            text-align: center;
+        }
+        .discography {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            width: 89%;
+            margin: auto;
+        }
+        .discography a {
+            text-decoration: none;
+        }
+        .disc-box {
+            margin: 8%;
+            text-align: center;
+        }
+        .disc-box p,
+        .disc-box i {
+            color: white;
+            margin: auto;
+            font-size: 1rem;
+        }
+        .disc-box p {
+            font-size: 1.2rem;
+        }
+        /* discography end */
+        /* wallpaper */
+        .open-wallpaper {
+            top: 10px;
+        }
+        /* wallpaper end */
+    }
+    /* desktop media query end */

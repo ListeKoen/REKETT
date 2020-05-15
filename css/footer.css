@@ -2,6 +2,7 @@
     max-width: 95%;
     padding: 5% 0 20px;
     margin: auto;
+    margin-bottom: 1%;
 }
 
 .site-footer hr {
@@ -37,7 +38,7 @@
     margin-left: 6px;
     margin-right: 0;
     border-radius: 100%;
-    background-color: #33353d
+    background-color: #0d526f
 }
 
 @media (max-width:575px) {
@@ -46,11 +47,12 @@
     }
 }
 
-@media (max-width:991px) {
+
+/* @media (max-width:991px) {
     .site-footer [class^=col-] {
         margin-bottom: 30px
     }
-}
+} */
 
 @media (max-width:1200px) {
     .site-footer {
@@ -126,6 +128,59 @@
 .galfoot {
     padding: 0;
     margin: 2.5%;
+}
+
+.index-footer-box {
+    width: 100%;
+    background: #202020;
+    margin: auto;
+    height: 100px;
+}
+
+.history-footer-box {
+    width: 100%;
+    background: #202020;
+    margin: auto;
+    height: 100px;
+}
+
+.member-footer-box {
+    width: 100%;
+    background: #202020;
+    margin: auto;
+    height: 100px;
+}
+
+.disco-footer-box {
+    width: 100%;
+    background: #202020;
+    margin: auto;
+    height: 100px;
+}
+
+.wallpaper-footer-box {
+    width: 100%;
+    background: #202020;
+    margin: auto;
+    height: 100px;
+}
+
+.index-footer,
+.member-footer,
+.history-footer,
+.disco-footer,
+.wallpaper-footer {
+    background: #202020;
+    padding: 0;
+}
+
+@media (max-width:575px) {
+    .mobile-footer-some {
+        margin-bottom: 10%;
+    }
+    .mobile-footer-logo {
+        margin-bottom: 5%;
+    }
 }
 
 @media (max-width:767px) {
