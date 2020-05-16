@@ -42,7 +42,8 @@
     right: 0;
     top: 0;
     position: absolute;
-    background-color: rgba(38, 84, 133, 0.54);
+    // background-color: rgba(38, 84, 133, 0.54);
+    background-color: #0D526F;
     border-radius: 50%;
     z-index: 18;
     overflow: hidden;
@@ -73,7 +74,6 @@
         }
         a {
             color: #fff;
-            font-family: 'Lato', Arial, Helvetica, sans-serif;
             font-size: 16px;
             width: 100%;
             display: block;
@@ -101,12 +101,13 @@
         transform: rotate(45deg) translateY(12px) translateX(12px);
     }
     span:nth-child(2) {
-        height: 430px;
-        width: 430px;
+        height: 431px;
+        width: 431px;
         right: -160px;
         top: -160px;
         border-radius: 50%;
-        background-color: rgba(38, 84, 133, 0.54);
+        // background-color: rgba(38, 84, 133, 0.54);
+        background-color: #202020;
     }
     span:nth-child(3) {
         transform: rotate(-45deg) translateY(-10px) translateX(10px);
@@ -121,9 +122,10 @@
     float: left;
     clear: both;
     padding: 20px 40px;
-    background: #fff;
+    background: #202020;
     border-radius: 3px;
-    border: 2px solid #10a1ea;
+    // border: 2px solid #10a1ea;
+    border: 2px solid #202020;
     overflow: hidden;
     position: relative;
     &:after {
@@ -133,7 +135,8 @@
         height: 200px;
         width: 400px;
         transform: rotate(45deg) translateX(-540px) translateY(-100px);
-        background: #10a1ea;
+        // background: #10a1ea;
+        background: #0D526F;
         z-index: 1;
     }
     &:before {
@@ -144,7 +147,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        color: #fff;
+        color: #202020;
         z-index: 2;
         text-align: center;
         padding: 20px 40px;
@@ -182,7 +185,7 @@
         position: absolute;
         bottom: 0;
         padding: 10px;
-        color: #fff;
+        color: #202020;
     }
     img {
         max-width: 100%;
@@ -194,4 +197,8 @@
             transform: scale(1.1);
         }
     }
+}
+
+.open a {
+    // color: #202020!important;
 }

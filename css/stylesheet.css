@@ -16,6 +16,9 @@
      :root {
         --swiper-theme-color: #0D526F;
         --bluee: #0D526F;
+        --lysblaa: #1a86ad;
+        --graa: #d1d2d4;
+        --sort: #202020;
     }
     
     * {
@@ -149,8 +152,17 @@
         display: none;
     }
     
+    .ticket-row-buy button:hover {
+        text-decoration: none;
+        background-color: var(--graa);
+    }
+    
     .ticket-btn-text {
-        color: #444;
+        color: #202020;
+    }
+    
+    .ticket-btn-text:hover {
+        color: var(--bluee);
     }
     /* Tour list end */
     /* Merchandise */
@@ -553,7 +565,7 @@
         /* photos end */
         /* discography */
         .open-disco-tablet {
-            top: 52px;
+            top: 48px;
         }
         .discography-title {
             margin-top: 7%;
@@ -781,6 +793,10 @@
         }
         .history-body {
             max-width: 100%;
+            background-image: url(../img/backgrounds/Desktop3840x2160\ –\ Woman.jpg);
+            background-size: 100%;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
         }
         .history-box {
             width: 40%;
@@ -791,17 +807,18 @@
         .history-title {
             font-size: 6rem;
             text-align: center;
+            margin: auto;
             margin-bottom: 5%;
         }
         .history-text {
-            width: 60%;
+            width: 40%;
             margin: auto;
             padding-bottom: 3rem;
         }
         .history-img {
             margin: auto;
             margin-bottom: 3rem;
-            width: 60%;
+            width: 40%;
         }
         .history-btn {
             border: solid 1px gainsboro;
@@ -821,7 +838,7 @@
         }
         .member-body {
             max-width: 100%;
-            background-image: url(../img/backgrounds/Desktop3840x2160\ –\ Doctor.jpg);
+            background-image: url(../img/backgrounds/Desktop3840x2160\ –\ Hourglass.jpg);
             background-size: 100%;
             background-attachment: fixed;
             background-repeat: no-repeat;
@@ -835,6 +852,7 @@
         .member-title {
             font-size: 6rem;
             text-align: center;
+            margin: auto;
         }
         .member-wrapper {
             width: 50%;
@@ -895,6 +913,7 @@
         .gallery-title {
             font-size: 6rem;
             text-align: center;
+            margin: auto;
         }
         .galfoot {
             width: 100%;
@@ -913,6 +932,7 @@
         .discography-title {
             font-size: 6rem;
             text-align: center;
+            margin: auto;
         }
         .discography {
             display: grid;
@@ -935,6 +955,7 @@
         }
         .disc-box p {
             font-size: 1.2rem;
+            max-width: 300px;
         }
         /* discography end */
         /* wallpaper */
