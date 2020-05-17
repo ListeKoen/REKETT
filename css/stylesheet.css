@@ -507,6 +507,11 @@
         .table-row-country p {
             width: 40%;
         }
+        .wallpaper-btn {
+            padding: 0.5%;
+            padding-left: 2%;
+            padding-right: 2%;
+        }
         /* index end */
         /* history */
         .open-history-tablet {
@@ -602,6 +607,8 @@
         .wallpaper-btn {
             font-size: 2rem;
             margin-top: 1rem;
+            padding-left: 3%;
+            padding-right: 3%;
         }
         /* index end */
         /* history*/
@@ -777,7 +784,7 @@
             font-family: Montserrat-semi;
         }
         .wallpaper-sec button {
-            font-size: 2.5rem;
+            font-size: 2rem;
             color: #202020;
             margin-top: 1.5%;
             padding-left: 5%;
