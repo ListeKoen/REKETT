@@ -367,8 +367,7 @@
         overflow: hidden;
         cursor: pointer;
     }
-    
-    .pic-title {
+    /* .pic-title {
         position: absolute;
         display: block;
         cursor: pointer;
@@ -396,9 +395,8 @@
         margin-right: -50%;
         transition-duration: .3s;
         transform: translate(-50%, -50%)
-    }
-    
-    .container:hover img {
+    } */
+    /* .container:hover img {
         transform: scale(1.2);
         transition-duration: .3s;
         filter: grayscale(50%);
@@ -409,7 +407,7 @@
         color: white;
         display: block;
         transition-duration: .3s;
-    }
+    } */
     /* photos end */
     /* discography */
     
@@ -462,6 +460,12 @@
         .photo-desc {
             display: block;
             text-align: center;
+        }
+        .pic-title {
+            display: none;
+        }
+        .text {
+            display: none;
         }
         .container {
             width: calc(100% - 6px);
@@ -922,10 +926,61 @@
             text-align: center;
             margin: auto;
         }
+        .container img {
+            max-height: 371px;
+        }
+        .pic-title {
+            position: absolute;
+            display: block;
+            cursor: pointer;
+            top: 35%;
+            display: none;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+            font-weight: bold;
+            font-size: 1.75em;
+            text-shadow: 1px 5px 10px black;
+            transition-duration: .3s;
+        }
+        .text {
+            position: absolute;
+            top: 70%;
+            cursor: pointer;
+            max-width: 80%;
+            text-align: center;
+            left: 50%;
+            text-shadow: 1px 5px 10px black;
+            font-size: 1em;
+            display: none;
+            margin-right: -50%;
+            transition-duration: .3s;
+            transform: translate(-50%, -50%)
+        }
+        .container:hover img {
+            transform: scale(1.2);
+            transition-duration: .3s;
+            filter: grayscale(50%);
+            opacity: .7;
+        }
+        .container:hover span {
+            color: white;
+            display: block;
+            transition-duration: .3s;
+        }
         .galfoot {
             width: 100%;
         }
         /* photos end */
+        /* album */
+        .album-body {
+            max-width: 100%;
+        }
+        .album-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        /* album end */
         /* discography */
         .open-disco {
             top: 10px;
