@@ -42,12 +42,6 @@
         color: gainsboro;
     }
     
-    button {
-        font-family: Montserrat-semi;
-        border-style: solid;
-        border-radius: 10px;
-    }
-    
     body {
         background-color: #202020;
         max-width: 98vw;
@@ -103,7 +97,7 @@
     
     .sub-title {
         margin: auto;
-        padding-bottom: 5%;
+        padding-bottom: 5.5%;
         padding-top: 5%;
     }
     /* Tour list */
@@ -137,24 +131,29 @@
     .table-row-date p,
     .table-row-country p,
     .table-row-city p,
-    .table-row-place p,
-    .table-row-buy p {
+    .table-row-place p {
         margin: auto;
         text-align: center;
     }
     
-    .table-row-buy p {
-        display: block;
-        margin: 0;
+    .btn {
+        border-style: solid;
+        border-radius: 10px;
+        border: var(--graa);
+        padding: 0;
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-top: 1px;
+        padding-bottom: 1px;
     }
     
-    .table-row-buy img {
-        display: none;
+    .btn-light {
+        color: var(--sort);
     }
     
-    .ticket-row-buy button:hover {
+    .ticket-row-buy a:hover {
         text-decoration: none;
-        background-color: var(--graa);
+        background-color: var(--bluee);
     }
     
     .ticket-btn-text {
