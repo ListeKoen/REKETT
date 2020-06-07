@@ -793,7 +793,7 @@
             top: 10px;
         }
         .index-body {
-            max-width: 100vw;
+            max-width: 97.6vw;
             background-image: url(../img/backgrounds/Desktop3840x2160\ –\ Hood.jpg);
             background-size: 100%;
             background-repeat: no-repeat;
@@ -942,7 +942,7 @@
             top: 10px;
         }
         .history-body {
-            max-width: 100%;
+            max-width: 97.6vw;
             background-image: url(../img/backgrounds/Desktop3840x2160\ –\ Woman.jpg);
             background-size: 100%;
             background-attachment: fixed;
@@ -987,7 +987,7 @@
             top: 10px;
         }
         .member-body {
-            max-width: 100%;
+            max-width: 97.6vw;
             background-image: url(../img/backgrounds/Desktop3840x2160\ –\ Hourglass.jpg);
             background-size: 100%;
             background-attachment: fixed;
@@ -1108,7 +1108,7 @@
             transition-duration: .3s;
         }
         .galfoot {
-            width: 100%;
+            max-width: 100vw;
         }
         /* photos end */
         /* album */
